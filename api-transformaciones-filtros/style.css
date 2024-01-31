@@ -1,0 +1,65 @@
+/* Estilos para el contenedor principal */
+.card {
+    background-color: #f0e8d7; /* Color de fondo pastel */
+    border: 2px solid black; /* Borde negro */
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+    color: #6b4226; /* Color de texto pastel */
+}
+
+/* Estilos para el botón de aplicar transformaciones */
+#applyTransformations {
+    background-color: #ffcc99; /* Color de fondo pastel */
+    color: black; /* Color de texto negro */
+    border: 2px solid black; /* Borde negro */
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* Estilos para el botón de guardar imagen */
+#saveTransformedImage {
+    background-color: #ffcc99; /* Color de fondo pastel */
+    color: black; /* Color de texto negro */
+    border: 2px solid black; /* Borde negro */
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* Estilos para los controles deslizantes */
+input[type="range"] {
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Estilos para los elementos de imagen */
+.transformedImage {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black; /* Borde negro */
+    margin: 10px 0;
+}
+
+/* Estilos para el contenedor de la imagen cargada */
+.seccionImgCargada {
+    border: 2px solid black; /* Borde negro */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Estilos para la sección de transformaciones */
+.seccionMedidas {
+    border: 2px solid black; /* Borde negro */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Estilos para las etiquetas de los controles deslizantes */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
